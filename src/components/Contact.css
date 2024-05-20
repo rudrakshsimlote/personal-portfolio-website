@@ -1,0 +1,30 @@
+/* src/components/Contact.css */
+#contact {
+    padding: 20px;
+    background-color: var(--background-color);
+    border: 1px solid var(--header-footer-bg-color);
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#contact h2 {
+    color: var(--primary-color);
+}
+
+#contact p {
+    color: var(--text-color);
+}
+
+#contact a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

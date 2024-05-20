@@ -1,0 +1,21 @@
+/* src/components/About.css */
+#about {
+    padding: 20px;
+    background-color: var(--background-color);
+    border: 1px solid var(--header-footer-bg-color);
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#about h2 {
+    color: var(--primary-color);
+}
+
+#about p {
+    color: var(--text-color);
+}
+
+#about:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

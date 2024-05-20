@@ -1,0 +1,10 @@
+/* src/colors.css */
+:root {
+    --primary-color: #007acc; /* VS Code blue */
+    --secondary-color: #1e1e1e; /* VS Code dark background */
+    --background-color: #252526; /* VS Code lighter dark background */
+    --text-color: #d4d4d4; /* Light grey text */
+    --header-footer-bg-color: #1e1e1e; /* VS Code dark background */
+    --header-footer-text-color: #d4d4d4; /* Light grey text */
+    --accent-color: #569cd6; /* Light blue accent */
+}
